@@ -7,7 +7,8 @@ The analysis explores demand distribution across qualifications and examines how
 ## Project Status
 🚧 Project in Progress
 
-Current stage: **Data Collection (Web Scraping)**
+Completed stage: **Data Collection (Web Scraping)**
+Current stage: **Data Cleaning an Feature Engineering**
 
 ---
 
@@ -25,24 +26,31 @@ Job listings were collected using web scraping techniques from a public job list
 
 The scraped dataset is stored in the `data/` directory.
 
+## Feature Engineering
+
+
 ---
 
 ## Repository Structure
 
 ```job-market-analysis
+|
+├── [README.md](http://readme.md/) 
+├── requirements.txt
 │
-├── README.md
 ├── data/
-│ └── raw_jobs.csv
+│   ├── raw_jobs.csv 
+│   └── cleaned_jobs_data.csv
+|   |-- Trimmer_jobs_data.csv 
+│
 ├── notebooks/
-│ └── web_scraping.ipynb
+│   ├── 01_web_scraping.ipynb 
+│   ├── 02_data_cleaning_feature_engineering.ipynb 
 ```
 
 ---
 
 ## Next Steps
-- Data Cleaning
-- Feature Engineering
 - Exploratory Data Analysis
 - Multivariate Analysis
 - Insights and Visualization
