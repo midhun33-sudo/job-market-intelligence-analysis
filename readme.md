@@ -46,11 +46,11 @@ The scraped dataset is stored in the `data/` directory.
 ├── notebooks/
 │   ├── 01_web_scraping.ipynb 
 │   ├── 02_data_cleaning_feature_engineering.ipynb 
+|   |-- 03_data_Description_analysis.ipynb
 ```
 
 ---
 
 ## Next Steps
-- Exploratory Data Analysis
 - Multivariate Analysis
 - Insights and Visualization
